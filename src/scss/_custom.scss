@@ -1,0 +1,20 @@
+// Here you can add other styles
+@media (min-width: 992px) {
+  .sidebar-fixed .sidebar {
+    width: 230px;
+  }
+}
+
+@media (min-width: 992px) {
+  html:not([dir="rtl"]) .sidebar-lg-show.sidebar-fixed .main, html:not([dir="rtl"]) .sidebar-lg-show.sidebar-fixed .app-footer, html:not([dir="rtl"]) .sidebar-show.sidebar-fixed .main, html:not([dir="rtl"]) .sidebar-show.sidebar-fixed .app-footer {
+    margin-left: 230px;
+  }
+}
+
+.sidebar .sidebar-nav {
+  width: 230px;
+}
+
+.sidebar .nav {
+  width: 230px;
+}
